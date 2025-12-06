@@ -2,7 +2,7 @@
 
 OVERRIDES_CONFIG_FILE_NAME="omarchy-overrides.conf"
 HYPRLAND_CONFIG="$HOME/.config/hypr/hyprland.conf"
-OVERRIDES_CONFIG="$HOME/dev/omarchy-setup/$OVERRIDES_CONFIG_FILE_NAME"
+OVERRIDES_CONFIG="$HOME/dev/system-setup/$OVERRIDES_CONFIG_FILE_NAME"
 
 
 echo "" >> "$HYPRLAND_CONFIG"

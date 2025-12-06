@@ -1,7 +1,7 @@
 #!/bin/sh
 
-. ./install-stow.sh
-. ./install-vs-code.sh
-. ./install-ghostty.sh
-. ./install-obsidian.sh
-. ./install-starship.sh
+. ./packages/stow.sh
+. ./packages/vs-code.sh
+. ./packages/ghostty.sh
+. ./packages/obsidian.sh
+. ./packages/starship.sh
