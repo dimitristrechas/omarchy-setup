@@ -3,4 +3,6 @@
 cd ~/dev/dotfiles
 
 
-stow -t ~ ghostty
+stow -t ~ --adopt ghostty
+stow -t ~ --adopt starship
+stow -t ~ --adopt git

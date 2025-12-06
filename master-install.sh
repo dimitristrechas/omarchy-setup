@@ -4,3 +4,4 @@
 . ./install-vs-code.sh
 . ./install-ghostty.sh
 . ./install-obsidian.sh
+. ./install-starship.sh
