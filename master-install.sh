@@ -5,6 +5,5 @@
 . ./packages/ghostty.sh
 . ./packages/obsidian.sh
 . ./packages/starship.sh
-. ./packages/plex.sh
-
-. ./services/plex.sh
+. ./packages/rbenv.sh
+. ./packages/nvm.sh

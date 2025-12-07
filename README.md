@@ -1,8 +1,14 @@
-# Omarchy personalized setup
+# Personalized cross-platform system setup
 
-1. `chmod +x master-install.sh`
-2. `./master-install.sh`
-3. `chmod +x install-dotfiles.sh`
-4. `./install-dotfiles.sh`
-5. `chmod +x install-omarchy-overrides.sh`
-6. `./install-overrides.sh`
+## Omarchy
+
+`chmod +x master-install.sh`
+
+1. `./master-install.sh`
+2. `./install-dotfiles.sh`
+3. `./omarchy-extras-install.sh`
+4. `./install-overrides.sh`
+
+## macOS
+
+todo
