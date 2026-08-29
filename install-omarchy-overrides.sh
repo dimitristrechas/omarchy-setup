@@ -1,9 +1,13 @@
 #!/bin/sh
 
-OVERRIDES_CONFIG_FILE_NAME="omarchy-overrides.conf"
-HYPRLAND_CONFIG="$HOME/.config/hypr/hyprland.conf"
-OVERRIDES_CONFIG="$HOME/dev/system-setup/$OVERRIDES_CONFIG_FILE_NAME"
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+HYPR_SRC="$SCRIPT_DIR/hypr"
+HYPR_DEST="$HOME/.config/hypr"
 
+mkdir -p "$HYPR_DEST"
+cp "$HYPR_SRC/autostart.lua" "$HYPR_DEST/autostart.lua"
+cp "$HYPR_SRC/input.lua" "$HYPR_DEST/input.lua"
+cp "$HYPR_SRC/looknfeel.lua" "$HYPR_DEST/looknfeel.lua"
+cp "$HYPR_SRC/monitors.lua" "$HYPR_DEST/monitors.lua"
 
-echo "" >> "$HYPRLAND_CONFIG"
-echo "source = $OVERRIDES_CONFIG" >> "$HYPRLAND_CONFIG"
+echo "Copied Omarchy 4 Hyprland Lua overrides to $HYPR_DEST"

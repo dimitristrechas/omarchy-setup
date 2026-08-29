@@ -6,8 +6,10 @@
 
 1. `./master-install.sh`
 2. `./install-dotfiles.sh`
-3. `./omarchy-extras-install.sh`
-4. `./install-overrides.sh`
+3. `./install-omarchy-extras.sh`
+4. `./install-omarchy-overrides.sh`
+
+Step 4 copies Omarchy 4 Hyprland Lua overrides from `hypr/` into `~/.config/hypr/` (`autostart.lua`, `input.lua`, `looknfeel.lua`, `monitors.lua`). Stock `hyprland.lua` and `bindings.lua` stay managed by Omarchy.
 
 ## macOS
 
